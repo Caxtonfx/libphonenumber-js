@@ -8259,7 +8259,7 @@
             <nationalNumberPattern>0800\d{7}</nationalNumberPattern>
          </tollFree>
       </territory>
-      <territory id="FK" countryCode="500" internationalPrefix="00">
+      <territory id="FK" countryCode="500" internationalPrefix="00" countryName="Falkland Islands">
          <generalDesc>
             <nationalNumberPattern>[2-7]\d{4}</nationalNumberPattern>
          </generalDesc>
@@ -19998,7 +19998,7 @@
           )[2-9]\d{6}</nationalNumberPattern>
          </personalNumber>
       </territory>
-      <territory id="PS" countryCode="970" internationalPrefix="00" nationalPrefix="0">
+      <territory id="PS" countryCode="970" internationalPrefix="00" nationalPrefix="0" countryName="Palestine">
          <availableFormats>
             <numberFormat pattern="(\d)(\d{3})(\d{4})" nationalPrefixFormattingRule="$NP$FG">
                <leadingDigits>[2489]</leadingDigits>
@@ -21442,7 +21442,7 @@
             <nationalNumberPattern>7000\d{7}</nationalNumberPattern>
          </uan>
       </territory>
-      <territory id="SH" mainCountryForCode="true" countryCode="290" leadingDigits="[256]" internationalPrefix="00" countryName="Saint Helena, Ascension and Tristan da Cunha">
+      <territory id="SH" mainCountryForCode="true" countryCode="290" leadingDigits="[256]" internationalPrefix="00" countryName="Saint Helena">
          <generalDesc>
             <nationalNumberPattern>(?:
             [256]\d|
@@ -22325,7 +22325,7 @@
             <nationalNumberPattern>70\d{6}</nationalNumberPattern>
          </voip>
       </territory>
-      <territory id="TA" countryCode="290" leadingDigits="8" internationalPrefix="00">
+      <territory id="TA" countryCode="290" leadingDigits="8" internationalPrefix="00" countryName="Saint Helena, Ascension and Tristan da Cunha">
          <generalDesc>
             <nationalNumberPattern>8\d{3}</nationalNumberPattern>
          </generalDesc>
@@ -23168,7 +23168,7 @@
           )\d{4}</nationalNumberPattern>
          </mobile>
       </territory>
-      <territory id="TW" countryCode="886" internationalPrefix="0(?:0[25-79]|19)" nationalPrefix="0" preferredExtnPrefix="#" mobileNumberPortableRegion="true">
+      <territory id="TW" countryCode="886" internationalPrefix="0(?:0[25-79]|19)" nationalPrefix="0" preferredExtnPrefix="#" mobileNumberPortableRegion="true" countryName="Taiwan">
          <availableFormats>
             <numberFormat pattern="(\d{2})(\d)(\d{4})" nationalPrefixFormattingRule="$NP$FG">
                <leadingDigits>202</leadingDigits>
@@ -24819,7 +24819,7 @@
           )[2-9]\d{6}</nationalNumberPattern>
          </personalNumber>
       </territory>
-      <territory id="VN" countryCode="84" internationalPrefix="00" nationalPrefix="0" countryName="Viet Nam">
+      <territory id="VN" countryCode="84" internationalPrefix="00" nationalPrefix="0" countryName="Vietnam">
          <availableFormats>
             <numberFormat pattern="(\d{3})(\d{4})" nationalPrefixFormattingRule="$NP$FG" nationalPrefixOptionalWhenFormatting="true">
                <leadingDigits>[17]99</leadingDigits>
@@ -25081,7 +25081,7 @@
             <nationalNumberPattern>800\d{3}</nationalNumberPattern>
          </tollFree>
       </territory>
-      <territory id="XK" countryCode="383" internationalPrefix="00" nationalPrefix="0">
+      <territory id="XK" countryCode="383" internationalPrefix="00" nationalPrefix="0" countryName="Kosovo">
          <availableFormats>
             <numberFormat pattern="(\d{3})(\d{5})" nationalPrefixFormattingRule="$NP$FG">
                <leadingDigits>[89]</leadingDigits>
